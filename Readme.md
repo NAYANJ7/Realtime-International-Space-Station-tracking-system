@@ -1,12 +1,12 @@
 # 🛰️ ISS Real-Time Orbital Tracker
 
-![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python)
-![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka)
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)
-![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apacheairflow)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql)
+![Python](https://img.shields.io/badge/Python-3.9-blue?style=for-the-badge&logo=python&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 **A production-grade real-time data engineering pipeline that ingests, processes, stores, and visualizes live telemetry from the International Space Station.**
 
@@ -14,7 +14,7 @@
 
 ## 📸 Dashboard Preview
 
-![ISS Real-Time Dashboard](Dashboard_demo.jpg)
+![ISS Real-Time Dashboard](Dashboard_demo.png)
 
 *The interactive Streamlit dashboard featuring live global tracking, orbital path visualization, and real-time telemetry metrics.*
 
@@ -33,7 +33,7 @@
 This project demonstrates an **end-to-end streaming architecture** designed to mimic modern enterprise data platforms. It goes beyond simple scripts by implementing a robust, containerized system capable of handling continuous data streams with fault tolerance, scalability, and monitoring.
 
 **Key Features:**
-- **🚀 Real-time Ingestion:** Polls the public ISS API (http://api.open-notify.org/iss-now.json) for sub-second location updates.
+- **🚀 Real-time Ingestion:** Polls the public ISS API[](http://api.open-notify.org/iss-now.json) for sub-second location updates.
 - **⚡ Event Streaming:** Uses **Apache Kafka** to decouple producers from consumers and ensure reliable message delivery.
 - **🔥 Stream Processing:** Utilizes **Spark Structured Streaming** for low-latency transformations and enrichments.
 - **💾 Persistent Storage:** Sinks processed data into **MySQL** for historical querying and analysis.
@@ -156,11 +156,14 @@ Perfect for: Data Engineering portfolios, learning event-driven architecture, ma
 
 ---
 
+---
+
 👤 **Author**  
 Nayan Jain  
 Data Engineering | Streaming Systems | Real-time Pipelines  
 
-[![GitHub](https://img.shields.io/badge/GitHub-NAYANJ7-181717?style=for-the-badge&logo=github)](https://github.com/NAYANJ7)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nayan%20Jain-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/nayan-jain007)
+[![GitHub](https://img.shields.io/badge/GitHub-NAYANJ7-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NAYANJ7)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nayan%20Jain-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nayan-jain007)  
+[![Email](https://img.shields.io/badge/Email-nayanjain24003@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nayanjain24003@gmail.com)
 
 ⭐ If you found this helpful, please **star** the repository!
