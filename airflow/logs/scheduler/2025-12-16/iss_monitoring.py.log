@@ -1,0 +1,280 @@
+[2025-12-16T18:32:46.219+0000] {processor.py:157} INFO - Started process (PID=192) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:32:46.220+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:32:46.221+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.221+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:32:46.406+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:32:46.629+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.628+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:32:46.641+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.641+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:32:46.649+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.649+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:32:46.674+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.674+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:32:46.689+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.689+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:32:46.700+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.700+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:32:46.701+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.701+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:32:46.716+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.716+0000] {dag.py:2963} INFO - Creating ORM DAG for iss_monitoring
+[2025-12-16T18:32:46.717+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.717+0000] {dag.py:2963} INFO - Creating ORM DAG for iss_restart
+[2025-12-16T18:32:46.731+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.731+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:27:46.730779+00:00, run_after=2025-12-16T18:32:46.730779+00:00
+[2025-12-16T18:32:46.733+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:32:46.732+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:32:46.767+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.552 seconds
+[2025-12-16T18:33:16.952+0000] {processor.py:157} INFO - Started process (PID=237) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:33:16.953+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:33:16.954+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:33:16.954+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:33:17.133+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:33:17.168+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:33:17.168+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:33:17.192+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:33:17.192+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:32:46.730779+00:00, run_after=2025-12-16T18:37:46.730779+00:00
+[2025-12-16T18:33:17.196+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:33:17.196+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:33:17.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.268 seconds
+[2025-12-16T18:33:47.416+0000] {processor.py:157} INFO - Started process (PID=252) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:33:47.417+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:33:47.418+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:33:47.418+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:33:47.562+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:33:47.594+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:33:47.593+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:33:47.616+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:33:47.616+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:32:46.730779+00:00, run_after=2025-12-16T18:37:46.730779+00:00
+[2025-12-16T18:33:47.620+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:33:47.620+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:33:47.636+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.224 seconds
+[2025-12-16T18:34:17.816+0000] {processor.py:157} INFO - Started process (PID=267) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:34:17.817+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:34:17.818+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:34:17.817+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:34:17.952+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:34:17.978+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:34:17.978+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:34:18.003+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:34:18.002+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:32:46.730779+00:00, run_after=2025-12-16T18:37:46.730779+00:00
+[2025-12-16T18:34:18.007+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:34:18.007+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:34:18.028+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.216 seconds
+[2025-12-16T18:34:48.192+0000] {processor.py:157} INFO - Started process (PID=282) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:34:48.193+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:34:48.194+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:34:48.194+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:34:48.320+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:34:48.351+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:34:48.350+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:34:48.373+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:34:48.373+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:32:46.730779+00:00, run_after=2025-12-16T18:37:46.730779+00:00
+[2025-12-16T18:34:48.377+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:34:48.376+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:34:48.394+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.204 seconds
+[2025-12-16T18:35:18.568+0000] {processor.py:157} INFO - Started process (PID=297) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:35:18.569+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:35:18.570+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:35:18.570+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:35:18.718+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:35:18.756+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:35:18.756+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:35:18.781+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:35:18.781+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:32:46.730779+00:00, run_after=2025-12-16T18:37:46.730779+00:00
+[2025-12-16T18:35:18.786+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:35:18.786+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:35:18.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.243 seconds
+[2025-12-16T18:35:48.993+0000] {processor.py:157} INFO - Started process (PID=312) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:35:48.993+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:35:48.994+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:35:48.994+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:35:49.113+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:35:49.139+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:35:49.138+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:35:49.159+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:35:49.159+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:32:46.730779+00:00, run_after=2025-12-16T18:37:46.730779+00:00
+[2025-12-16T18:35:49.163+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:35:49.163+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:35:49.183+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.193 seconds
+[2025-12-16T18:36:19.356+0000] {processor.py:157} INFO - Started process (PID=327) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:36:19.357+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:36:19.357+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:36:19.357+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:36:19.474+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:36:19.497+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:36:19.497+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:36:19.515+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:36:19.515+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:32:46.730779+00:00, run_after=2025-12-16T18:37:46.730779+00:00
+[2025-12-16T18:36:19.518+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:36:19.518+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:36:19.532+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.179 seconds
+[2025-12-16T18:36:49.702+0000] {processor.py:157} INFO - Started process (PID=342) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:36:49.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:36:49.704+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:36:49.704+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:36:49.831+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:36:49.859+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:36:49.858+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:36:49.878+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:36:49.878+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:32:46.730779+00:00, run_after=2025-12-16T18:37:46.730779+00:00
+[2025-12-16T18:36:49.881+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:36:49.881+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:36:49.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.197 seconds
+[2025-12-16T18:37:20.083+0000] {processor.py:157} INFO - Started process (PID=357) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:37:20.084+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:37:20.085+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:37:20.085+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:37:20.225+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:37:20.252+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:37:20.252+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:37:20.272+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:37:20.272+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:32:46.730779+00:00, run_after=2025-12-16T18:37:46.730779+00:00
+[2025-12-16T18:37:20.275+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:37:20.275+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:37:20.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.210 seconds
+[2025-12-16T18:45:24.625+0000] {processor.py:157} INFO - Started process (PID=199) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:45:24.626+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:45:24.627+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:24.627+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:45:24.785+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:45:24.969+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:24.969+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:45:24.978+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:24.978+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:45:24.984+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:24.984+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:45:24.997+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:24.997+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:45:25.003+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:25.003+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:45:25.009+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:25.009+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-16T18:45:25.009+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:25.009+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:45:25.020+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:25.020+0000] {dag.py:2963} INFO - Creating ORM DAG for iss_restart
+[2025-12-16T18:45:25.021+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:25.021+0000] {dag.py:2963} INFO - Creating ORM DAG for iss_monitoring
+[2025-12-16T18:45:25.030+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:25.030+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:40:25.030186+00:00, run_after=2025-12-16T18:45:25.030186+00:00
+[2025-12-16T18:45:25.031+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:25.031+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:45:25.052+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.430 seconds
+[2025-12-16T18:45:55.196+0000] {processor.py:157} INFO - Started process (PID=244) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:45:55.197+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:45:55.198+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:55.198+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:45:55.327+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:45:55.354+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:55.354+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:45:55.377+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:55.377+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:45:25.030186+00:00, run_after=2025-12-16T18:50:25.030186+00:00
+[2025-12-16T18:45:55.380+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:45:55.380+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:45:55.396+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.202 seconds
+[2025-12-16T18:46:25.551+0000] {processor.py:157} INFO - Started process (PID=259) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:46:25.552+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:46:25.553+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:46:25.553+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:46:25.773+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:46:25.809+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:46:25.809+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:46:25.835+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:46:25.835+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:45:25.030186+00:00, run_after=2025-12-16T18:50:25.030186+00:00
+[2025-12-16T18:46:25.839+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:46:25.839+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:46:25.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.314 seconds
+[2025-12-16T18:46:56.044+0000] {processor.py:157} INFO - Started process (PID=267) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:46:56.045+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:46:56.047+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:46:56.046+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:46:56.247+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:46:56.285+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:46:56.284+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:46:56.316+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:46:56.316+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:45:25.030186+00:00, run_after=2025-12-16T18:50:25.030186+00:00
+[2025-12-16T18:46:56.322+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:46:56.321+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:46:56.345+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.306 seconds
+[2025-12-16T18:47:26.501+0000] {processor.py:157} INFO - Started process (PID=282) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:47:26.502+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:47:26.503+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:47:26.503+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:47:26.625+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:47:26.653+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:47:26.653+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:47:26.674+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:47:26.674+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:45:25.030186+00:00, run_after=2025-12-16T18:50:25.030186+00:00
+[2025-12-16T18:47:26.678+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:47:26.678+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:47:26.695+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.196 seconds
+[2025-12-16T18:47:56.873+0000] {processor.py:157} INFO - Started process (PID=297) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:47:56.874+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:47:56.875+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:47:56.875+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:47:56.996+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:47:57.020+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:47:57.020+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:47:57.039+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:47:57.039+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:45:25.030186+00:00, run_after=2025-12-16T18:50:25.030186+00:00
+[2025-12-16T18:47:57.042+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:47:57.042+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:47:57.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.186 seconds
+[2025-12-16T18:48:27.224+0000] {processor.py:157} INFO - Started process (PID=312) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:48:27.225+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:48:27.226+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:48:27.226+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:48:27.350+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:48:27.375+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:48:27.375+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:48:27.395+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:48:27.394+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:45:25.030186+00:00, run_after=2025-12-16T18:50:25.030186+00:00
+[2025-12-16T18:48:27.398+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:48:27.398+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:48:27.413+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.192 seconds
+[2025-12-16T18:48:57.585+0000] {processor.py:157} INFO - Started process (PID=327) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:48:57.586+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:48:57.587+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:48:57.587+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:48:57.729+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:48:57.760+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:48:57.760+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:48:57.783+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:48:57.783+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:45:25.030186+00:00, run_after=2025-12-16T18:50:25.030186+00:00
+[2025-12-16T18:48:57.787+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:48:57.787+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:48:57.806+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.224 seconds
+[2025-12-16T18:49:27.999+0000] {processor.py:157} INFO - Started process (PID=342) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:49:27.999+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:49:28.000+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:49:28.000+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:49:28.126+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:49:28.151+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:49:28.151+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:49:28.172+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:49:28.172+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:45:25.030186+00:00, run_after=2025-12-16T18:50:25.030186+00:00
+[2025-12-16T18:49:28.175+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:49:28.175+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:49:28.191+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.195 seconds
+[2025-12-16T18:49:58.358+0000] {processor.py:157} INFO - Started process (PID=357) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:49:58.359+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:49:58.359+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:49:58.359+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:49:58.480+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:49:58.508+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:49:58.508+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:49:58.530+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:49:58.530+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:45:25.030186+00:00, run_after=2025-12-16T18:50:25.030186+00:00
+[2025-12-16T18:49:58.533+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:49:58.533+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:49:58.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.194 seconds
+[2025-12-16T18:50:28.747+0000] {processor.py:157} INFO - Started process (PID=397) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:50:28.748+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:50:28.748+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:50:28.748+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:50:28.865+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:50:28.891+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:50:28.891+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:50:28.910+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:50:28.910+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:50:25.030186+00:00, run_after=2025-12-16T18:55:25.030186+00:00
+[2025-12-16T18:50:28.913+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:50:28.913+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:50:28.930+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.185 seconds
+[2025-12-16T18:50:59.109+0000] {processor.py:157} INFO - Started process (PID=417) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:50:59.111+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:50:59.111+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:50:59.111+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:50:59.236+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:50:59.264+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:50:59.264+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:50:59.284+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:50:59.283+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:50:25.030186+00:00, run_after=2025-12-16T18:55:25.030186+00:00
+[2025-12-16T18:50:59.287+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:50:59.287+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:50:59.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.195 seconds
+[2025-12-16T18:51:29.481+0000] {processor.py:157} INFO - Started process (PID=432) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:51:29.482+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:51:29.483+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:51:29.483+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:51:29.603+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:51:29.629+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:51:29.629+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:51:29.648+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:51:29.648+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:50:25.030186+00:00, run_after=2025-12-16T18:55:25.030186+00:00
+[2025-12-16T18:51:29.651+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:51:29.651+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:51:29.668+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.190 seconds
+[2025-12-16T18:51:59.862+0000] {processor.py:157} INFO - Started process (PID=447) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:51:59.864+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:51:59.865+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:51:59.864+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:51:59.999+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:52:00.030+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:52:00.029+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:52:00.057+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:52:00.057+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:50:25.030186+00:00, run_after=2025-12-16T18:55:25.030186+00:00
+[2025-12-16T18:52:00.061+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:52:00.061+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:52:00.080+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.222 seconds
+[2025-12-16T18:52:30.261+0000] {processor.py:157} INFO - Started process (PID=462) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:52:30.261+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:52:30.262+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:52:30.262+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:52:30.383+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:52:30.415+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:52:30.415+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:52:30.439+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:52:30.439+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:50:25.030186+00:00, run_after=2025-12-16T18:55:25.030186+00:00
+[2025-12-16T18:52:30.443+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:52:30.443+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:52:30.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.202 seconds
+[2025-12-16T18:53:00.640+0000] {processor.py:157} INFO - Started process (PID=477) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:53:00.640+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:53:00.641+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:53:00.641+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:53:00.762+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:53:00.786+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:53:00.786+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:53:00.806+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:53:00.806+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:50:25.030186+00:00, run_after=2025-12-16T18:55:25.030186+00:00
+[2025-12-16T18:53:00.809+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:53:00.809+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:53:00.823+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.186 seconds
+[2025-12-16T18:53:30.999+0000] {processor.py:157} INFO - Started process (PID=492) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:53:31.001+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:53:31.003+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:53:31.002+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:53:31.136+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:53:31.168+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:53:31.167+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:53:31.194+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:53:31.194+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:50:25.030186+00:00, run_after=2025-12-16T18:55:25.030186+00:00
+[2025-12-16T18:53:31.197+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:53:31.197+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:53:31.212+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.217 seconds
+[2025-12-16T18:54:01.391+0000] {processor.py:157} INFO - Started process (PID=507) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:54:01.392+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:54:01.393+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:54:01.393+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:54:01.535+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:54:01.570+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:54:01.569+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:54:01.595+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:54:01.595+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:50:25.030186+00:00, run_after=2025-12-16T18:55:25.030186+00:00
+[2025-12-16T18:54:01.600+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:54:01.600+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:54:01.621+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.233 seconds
+[2025-12-16T18:54:31.787+0000] {processor.py:157} INFO - Started process (PID=522) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:54:31.788+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:54:31.788+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:54:31.788+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:54:31.919+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:54:31.947+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:54:31.947+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:54:31.968+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:54:31.968+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:50:25.030186+00:00, run_after=2025-12-16T18:55:25.030186+00:00
+[2025-12-16T18:54:31.971+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:54:31.971+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:54:31.986+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.202 seconds
+[2025-12-16T18:55:02.141+0000] {processor.py:157} INFO - Started process (PID=537) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:55:02.142+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:55:02.143+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:55:02.143+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:55:02.266+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:55:02.292+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:55:02.292+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:55:02.502+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:55:02.502+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:50:25.030186+00:00, run_after=2025-12-16T18:55:25.030186+00:00
+[2025-12-16T18:55:02.505+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:55:02.505+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:55:02.519+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.381 seconds
+[2025-12-16T18:55:32.666+0000] {processor.py:157} INFO - Started process (PID=582) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:55:32.667+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:55:32.668+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:55:32.668+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:55:32.969+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:55:32.995+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:55:32.995+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:55:33.014+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:55:33.014+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:55:25.030186+00:00, run_after=2025-12-16T19:00:25.030186+00:00
+[2025-12-16T18:55:33.017+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:55:33.017+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:55:33.031+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.369 seconds
+[2025-12-16T18:56:03.207+0000] {processor.py:157} INFO - Started process (PID=597) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:56:03.208+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:56:03.209+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:56:03.209+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:56:03.339+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_restart', 'iss_monitoring']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:56:03.367+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:56:03.367+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:56:03.592+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:56:03.592+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:55:25.030186+00:00, run_after=2025-12-16T19:00:25.030186+00:00
+[2025-12-16T18:56:03.596+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:56:03.596+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:56:03.612+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.408 seconds
+[2025-12-16T18:56:33.799+0000] {processor.py:157} INFO - Started process (PID=605) to work on /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:56:33.800+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/iss_monitoring.py for tasks to queue
+[2025-12-16T18:56:33.801+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:56:33.801+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:56:34.108+0000] {processor.py:839} INFO - DAG(s) dict_keys(['iss_monitoring', 'iss_restart']) retrieved from /opt/airflow/dags/iss_monitoring.py
+[2025-12-16T18:56:34.134+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:56:34.133+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2025-12-16T18:56:34.152+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:56:34.152+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_monitoring to 2025-12-16T18:55:25.030186+00:00, run_after=2025-12-16T19:00:25.030186+00:00
+[2025-12-16T18:56:34.155+0000] {logging_mixin.py:154} INFO - [2025-12-16T18:56:34.155+0000] {dag.py:3722} INFO - Setting next_dagrun for iss_restart to None, run_after=None
+[2025-12-16T18:56:34.171+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/iss_monitoring.py took 0.374 seconds
